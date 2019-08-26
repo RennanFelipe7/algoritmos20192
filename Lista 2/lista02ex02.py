@@ -5,4 +5,4 @@ else:
     print("Sua letra é uma consoante")
 
 
-# Já nessa questão tô levando em consideração que o usuario ira digitar uma letra minuscula que é o que pede no anunciado da linha 1
+# Já nessa questão tô levando em consideração que o usuario ira digitar uma letra minuscula que é o que pede no anunciado da linha 1...
