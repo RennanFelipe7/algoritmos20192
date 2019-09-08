@@ -1,6 +1,6 @@
 NumeroFinalDoIntervalo = int(input("Qual numero você quer verificar os numeros primos no intervalo de [1,X], com X valendo? " ))
-while NumeroFinalDoIntervalo <= 1:
-    print("Numero invalido, seu numero deve ser igual ou maior a 2")
+while NumeroFinalDoIntervalo <= 1 or NumeroFinalDoIntervalo > 1000:
+    print("Numero invalido, seu numero deve ser igual ou maior a 2 e menor ou igual a 1000")
     NumeroFinalDoIntervalo = int(input("Qual numero você quer verificar os numeros primos no intervalo de [1,X], com X valendo? " ))
 print("Entre 1 e",NumeroFinalDoIntervalo,"são primos os números:")
 NumerosAVerificarDoMeioDoIntervalo = 2
