@@ -6,9 +6,9 @@ while cont < QuantidadeDePessoas:
     SomaDasIdadesDasPessoas = SomaDasIdadesDasPessoas + IdadeDaPessoa
     MediaDaIdadeDasPessoas = SomaDasIdadesDasPessoas / QuantidadeDePessoas
     cont = cont + 1
-if MediaDaIdadeDasPessoas <= 25:
+if MediaDaIdadeDasPessoas < 26:
     print("A turma é jovem")
-elif MediaDaIdadeDasPessoas >= 26 and MediaDaIdadeDasPessoas <= 60:
+elif MediaDaIdadeDasPessoas >= 26 and MediaDaIdadeDasPessoas < 61:
     print("A turma é adulta")
-else:
+elif MediaDaIdadeDasPessoas >= 61:
     print("A turma é idosa")
