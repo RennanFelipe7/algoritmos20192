@@ -6,4 +6,4 @@ while cont < TotalDeCDs :
     ValorTotalDosCDs = ValorTotalDosCDs + ValorDoCD
     MediaDosCDs = ValorTotalDosCDs / TotalDeCDs
     cont = cont + 1
-print("O total gasto em seus CDs foi de",ValorTotalDosCDs,"reais e sua media de dinheiro gasto nos CDs foi de",MediaDosCDs,"reais")
+print("O valor total investido em seus CDs foi de",ValorTotalDosCDs,"reais e o valor medio gasto em cada um dos CDs foi de",MediaDosCDs,"reais")
