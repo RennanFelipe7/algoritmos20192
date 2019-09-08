@@ -19,4 +19,4 @@ while cont < 50:
 
 
 
-# Professor Ricardo nessa questão eu não consegui interpretar bem ela, se ela queria a tabela com os valores respectivos de 1 a 50 ou se a questão queria o valor equivalente ao total de itens que o cliente comprou, então fiz as duas formas. De qulquer forma não deixa de esta errado.
+# Professor Ricardo nessa questão eu não consegui interpretar bem ela, se ela queria a tabela com os valores respectivos de 1 a 50 ou se a questão queria o valor equivalente ao total de itens que o cliente comprou, então fiz as duas formas. De qulquer forma não deixa de esta certo.
