@@ -5,7 +5,6 @@ Denominador = 1
 print("Sequencia : ")
 print("1")
 while cont < UltimoValor:
-    Numerador = Numerador
     Denominador = Denominador + 1
     print(Numerador,"/",Denominador) 
     cont = cont + 1
