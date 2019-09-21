@@ -1,4 +1,4 @@
-UsarOCaixa = str(input("Você quer usar o caixa, Digite S para (sim) e N para (não) ? "))
+UsarOCaixa = str(input("Você quer usar o caixa? Digite S para (sim) e N para (não) "))
 print()
 QuantoACompraCustouAoCliente = 0
 TotalDeLucroDoCaixa = 0 
@@ -12,7 +12,7 @@ while UsarOCaixa == "S" or UsarOCaixa == "s":
         QuantoACompraCustouAoCliente = QuantoACompraCustouAoCliente + Produto        
     print("A compra custou ao cliente um total de",QuantoACompraCustouAoCliente,"reais")
     print()
-    UsarOCaixa = str(input("Você quer usar o caixa, Digite S para (sim) e N para (não) ? "))
+    UsarOCaixa = str(input("Você quer usar novamente o caixa? Digite S para (sim) e N para (não) "))
     print()
     TotalDeLucroDoCaixa = TotalDeLucroDoCaixa + QuantoACompraCustouAoCliente
     QuantoACompraCustouAoCliente = 0
