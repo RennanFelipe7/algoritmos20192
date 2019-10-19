@@ -3,6 +3,7 @@ Pular = 0
 print()
 print("Abaixo na sua lista o número ""0"" esta indisponível para entrada do usuário")
 print()
+cont = 0
 for r in range(10):
     ElementoDoVetor = float(input("Qual o elemento do seu vetor ? "))
     while ElementoDoVetor == 0:
@@ -21,6 +22,10 @@ for a in range(10):
             Pular = 0   
         elif Vetor[a] == Vetor[b]:
             print("Na sua lista existe o valor repetido",Vetor[a])
+            cont = cont + 1
+
+if cont == 0:
+    print("O Vetor não possui elementos iguais")
 
 # Professor Ricardo nessa questão segue um pouco a lógica da questão 8 dessa mesma lista 5
 
