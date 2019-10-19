@@ -3,6 +3,7 @@ Lista1 = [""] * TamandoDalista1
 TamandoDalista2 = int(input("Qual o tamanho da lista 2? "))
 Lista2 = [""] * TamandoDalista2
 Pular = 0
+cont = 0
 print()
 print("Abaixo nas suas listas o caratctere ""*"" esta indisponível para entrada do usuário")
 print()
@@ -36,7 +37,9 @@ for a in range(TamandoDalista1):
             Pular = 0
         elif Lista1[a] == Lista2[b]:
             print("As listas possui o elemento igual elemento",Lista1[a])
-
+            cont = cont + 1
+if cont == 0:
+    print("As listas não possui elementos iguais")
 # Professor Ricardo como na questão não fala se é uma lista de numeros ou strings, fiz dessa maneira onde de qualquer forma se houver elementos iguais seja numeros ou letras o algoritmo irá funcionar da mesma forma.
 
 # Professor Ricardo como foi perguntado em sala a forma de resolver a situação se houvesse dois ou mais numeros repetidos na mesma lista para não ser imprimido na tela a mensagem varias vezes que aquele elemento estava sendo repetido fiz da seguinte maneira:
@@ -47,4 +50,6 @@ for a in range(TamandoDalista1):
 
 # Da linha 23 até a linha 31 comparo todos os índices da minha lista com os outros índices dessa mesma lista, afim de encontrar valores repetidos para poder trocar o valor do indice da frente ou maior pelo "*"
 
-# Por último na linha 35 faço a comparação se tenho o "*" na minha lista se tiver não faço nada, o comando da linha 36 é apenas um auxiliar por que não posso deixa-ló em branco.   
+# Na linha 35 faço a comparação se tenho o "*" na minha lista se tiver não faço nada, o comando da linha 36 é apenas um auxiliar por que não posso deixa-ló em branco.   
+
+# Essa variavel cont é somente uma auxiliar para se não houver numeros repetidos nas listas aparecer a mensagem que não existe numeros repetidos na lista
