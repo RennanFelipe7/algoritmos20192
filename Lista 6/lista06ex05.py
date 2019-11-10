@@ -6,7 +6,7 @@ for i in range(OrdemDaMatriz):
     Matriz.append([0]* OrdemDaMatriz)
 for c in range(OrdemDaMatriz):
     for d in range(OrdemDaMatriz):
-        Matriz[c][d] = int(input("Qual o elemento da segunda matriz [" + str (c+1) +"][" + str (d+1) + "] ? "))
+        Matriz[c][d] = int(input("Qual o elemento da matriz [" + str (c+1) +"][" + str (d+1) + "] ? "))
 for x in range(OrdemDaMatriz):
     for z in range(x + 1,OrdemDaMatriz,1):
         SomaElementosAcimaDaDiagonalPrincipal = SomaElementosAcimaDaDiagonalPrincipal + Matriz[x][z]
