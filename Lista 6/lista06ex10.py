@@ -1,4 +1,4 @@
-Linha = int(input("Linha ? "))
+Linha = int(input("Até que linha você quer imprimir do triângulo de Pascal ? "))
 Matriz = []
 ContDeLinha = 1
 ContColunaSuperiorEsquerdo = 0
