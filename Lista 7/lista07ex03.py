@@ -4,7 +4,7 @@ Vetor = [""] * TamanhoDoVetor
 VetorInverso = [""] * TamanhoDoVetor
 def CriaVetor(XVetor):
     for i in range(TamanhoDoVetor):
-        Vetor[i] = str(input("Elemento do vetor posição " + str (i+1) + " ? "))
+        XVetor[i] = str(input("Elemento do vetor posição " + str (i+1) + " ? "))
 
 def InverterVetor (VetorOriginal,VetorInversoFuncao,Tamanho):
     UltimoIndice = Tamanho - 1   
