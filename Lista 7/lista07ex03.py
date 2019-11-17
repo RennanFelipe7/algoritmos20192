@@ -2,8 +2,8 @@ TamanhoDoVetor = int(input("Tamanho do vetor ? "))
 print()
 Vetor = [""] * TamanhoDoVetor
 VetorInverso = [""] * TamanhoDoVetor
-def CriaVetor(XVetor):
-    for i in range(TamanhoDoVetor):
+def CriaVetor(XVetor,Tamanho):
+    for i in range(Tamanho):
         XVetor[i] = str(input("Elemento do vetor posição " + str (i+1) + " ? "))
 
 def InverterVetor (VetorOriginal,VetorInversoFuncao,Tamanho):
@@ -14,5 +14,5 @@ def InverterVetor (VetorOriginal,VetorInversoFuncao,Tamanho):
     print()                
     print("Seu vetor na ordem inversa é",VetorInversoFuncao)
     
-CriaVetor(Vetor)
+CriaVetor(Vetor,TamanhoDoVetor)
 InverterVetor(Vetor,VetorInverso,TamanhoDoVetor)
