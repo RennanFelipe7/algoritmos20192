@@ -11,7 +11,6 @@ def InverterVetor (VetorOriginal,VetorInversoFuncao,Tamanho):
         VetorInversoFuncao[UltimoIndice] = VetorOriginal[a]
         UltimoIndice = UltimoIndice - 1
     print()                
-    print("Seu vetor na ordem inversa é",VetorInversoFuncao)
-    
+    print("Seu vetor na ordem inversa é",VetorInversoFuncao)    
 CriaVetor(Vetor,TamanhoDoVetor)
 InverterVetor(Vetor,VetorInverso,TamanhoDoVetor)
