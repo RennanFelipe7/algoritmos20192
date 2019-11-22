@@ -17,7 +17,6 @@ def ImprimeParesEImpares(Vet,XTamanho):
     for b in range(XTamanho):
         if Vet[b] % 2 != 0:
             print(Vet[b],end="  ")
-
 InsereElementosNoVetor(Vetor,TamanhoDoVetor)
 print()
 ImprimeParesEImpares(Vetor,TamanhoDoVetor)
